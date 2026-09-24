@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.ENV
+*.egg-info/
+dist/
+build/
+*.log
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend/dist/
+frontend/node_modules/
+frontend/.vite/
+
+# Workspace projects (keep structure but ignore contents except .gitkeep)
+workspace/*
+!workspace/.gitkeep
+backend/data/projects/*
+!backend/data/projects/.gitkeep
+backend/data/trajectories/*
+!backend/data/trajectories/.gitkeep
+backend/data/calibration/*
+!backend/data/calibration/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env.local
+.env.production
+*.pem
+*.key
+secrets.json
+
+# Temp
+/tmp/
+*.tmp
+*.zip
+project.zip
+
+# Presentation
+*.pptx
+!**/presentations/.gitkeep
